@@ -14,3 +14,4 @@ document.getElementsByClassName("gb_kf")[0].style.fill = "rgb(255,255,255)";
 document.getElementsByClassName("gb_lf")[0].style.opacity = "100";
 document.getElementsByClassName("gb_lf")[0].style.fill = "rgb(255,255,255)";
 //help button accsessor: document.getElementsByClassName("Lw7GHd")[document.getElementsByClassName("Lw7GHd").length - 1]
+document.getElementsByClassName("Lw7GHd")[document.getElementsByClassName("Lw7GHd").length - 1].innerHTML = "<img src='https://raw.githubusercontent.com/HugoHead/old-classroom/master/old%20Clssroom/helpicon.png'>"; 
