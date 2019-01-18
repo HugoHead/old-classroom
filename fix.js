@@ -11,3 +11,5 @@ document.getElementsByTagName("BODY")[0].style.backgroundColor = "#eeeeee"
     }
 document.getElementsByClassName("gb_kf")[0].style.opacity = "100";
 document.getElementsByClassName("gb_kf")[0].style.fill = "rgb(255,255,255)";
+document.getElementsByClassName("gb_lf")[0].style.opacity = "100";
+document.getElementsByClassName("gb_lf")[0].style.fill = "rgb(255,255,255)";
