@@ -3,10 +3,10 @@ document.getElementsByClassName("XIpEib QRiHXd")[0].style.backgroundColor = "#4b
 var elems = document.getElementsByClassName("GmuOkf");
 for (var i = 0; i < elems.length; i++) {
     var odd = i % 2
-    if odd = 1 {
+    if (odd == 1) {
         elems[i].innerHTML = '<img src="https://raw.githubusercontent.com/HugoHead/old-classroom/master/old%20Clssroom/classworkFolderIcon.png">';   
     }
-    else if {
+    else {
         elems[i].innerHTML = '<img src="https://raw.githubusercontent.com/HugoHead/old-classroom/master/old%20Clssroom/folder.png">';        } 
 }
 document.getElementsByClassName("sEZiv")[0].innerHTML = '<div class="PDXc1b MbhUzd" jsname="ksKsZd"></div><content class="XuQwKc"><span class="GmuOkf" style="top: -12px"><svg focusable="false" xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 13h-7v7h-2v-7H4v-2h7V4h2v7h7v2z"></path></svg></span></content>';
