@@ -9,3 +9,5 @@ document.getElementsByTagName("BODY")[0].style.backgroundColor = "#eeeeee"
     for (var i = 0; i < elems.length; i++) {
         elems[i].style.borderRadius = "0";
     }
+document.getElementsByClassName("gb_kf")[0].style.opacity = "100";
+document.getElementsByClassName("gb_kf")[0].style.fill = "rgb(255,255,255)";
