@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  try to take over the world!
 // @author       You
-// @match        https://classroom.google.com/u/*/h*
+// @match        https://classroom.google.com/*
 // @grant        none
 // ==/UserScript==
 
