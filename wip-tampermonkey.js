@@ -25,7 +25,8 @@ window.addEventListener('load', function(){
     site == "https://classroom.google.com/u/5/h" || site == "https://classroom.google.com/u/5/h" ||
     site == "https://classroom.google.com/u/6/h" || site == "https://classroom.google.com/u/7/h"
     || site == "https://classroom.google.com/u/8/h" || site == "https://classroom.google.com/h")
-    {
+    {   
+        //you may need to tweak the below numbers to work with you browser and computer, but these work firefox 58 on macos 10.8
         window.setTimeout(function(){delay(150); fixMain();}, 1700);
         fixMain();
         console.log("here14");
