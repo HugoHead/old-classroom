@@ -23,9 +23,11 @@ window.addEventListener('load', function(){
     if (site == "https://classroom.google.com/u/0/h" || site == "https://classroom.google.com/u/1/h" || site == "https://classroom.google.com/u/2/h"
     || site == "https://classroom.google.com/u/3/h" || site == "https://classroom.google.com/u/4/h" ||
     site == "https://classroom.google.com/u/5/h" || site == "https://classroom.google.com/u/5/h" ||
-    site == "https://classroom.google.com/u/6/h" || site == "https://classroom.google.com/u/7/h"|| site == "https://classroom.google.com/u/8/h")
+    site == "https://classroom.google.com/u/6/h" || site == "https://classroom.google.com/u/7/h"
+    || site == "https://classroom.google.com/u/8/h" || site == "https://classroom.google.com/h")
     {
-        setInterval(fixMain(),10000);
+        window.setTimeout(function(){delay(150); fixMain();}, 1700);
+        fixMain();
         console.log("here14");
     }
 });
