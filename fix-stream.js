@@ -20,3 +20,7 @@ document.getElementsByClassName("xSP5ic")[0].style.fill = "white";
 var className = document.getElementById("UGb2Qe").innerHTML;
 document.getElementById("UGb2Qe").addEventListener("mouseover", function(){document.getElementById("UGb2Qe").style.textDecoration = "underline"; console.log("on");});
 document.getElementById("UGb2Qe").addEventListener("mouseout", function(){document.getElementById("UGb2Qe").style.textDecoration = "none"; console.log("off");});
+
+// fix the work to do box on the right.
+document.getElementsByClassName("d4Fe0d")[0].style.borderRadius = "0";
+document.getElementsByClassName("d4Fe0d")[0].style.border = "none";
