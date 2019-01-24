@@ -24,3 +24,4 @@ document.getElementById("UGb2Qe").addEventListener("mouseout", function(){docume
 // fix the work to do box on the right.
 document.getElementsByClassName("d4Fe0d")[0].style.borderRadius = "0";
 document.getElementsByClassName("d4Fe0d")[0].style.border = "none";
+document.getElementsByClassName("d4Fe0d")[0].style.opacity = "30";
