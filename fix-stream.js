@@ -49,8 +49,22 @@ document.getElementsByClassName("gb_kf")[0].style.opacity = "100";
 document.getElementsByClassName("gb_kf")[0].style.fill = "rgb(255,255,255)";
 document.getElementsByClassName("gb_lf")[0].style.opacity = "100";
 document.getElementsByClassName("gb_lf")[0].style.fill = "rgb(255,255,255)";
+
 //chang the background of the post prompt to white.
 document.getElementsByClassName("qk0lee")[0].style.backgroundColor = "white";
+
+//make the tab colors white
+document.getElementsByClassName("u2mfde")[1].style.color = "white";
+document.getElementsByClassName("u2mfde")[3].style.color = "white";
+document.getElementsByClassName("u2mfde")[5].style.color = "white";
+document.getElementsByClassName("u2mfde")[3].style.opacity = "100";
+document.getElementsByClassName("u2mfde")[5].style.opacity = "100";
+
+//disable max-width for image.
+//make width 2000px
+//make border radius 0.
+//MAKE background transparant
+//
 
 //make sure this is last:
 var classSubtitle = document.getElementsByClassName("HDsjVd")[0].innerHTML;
