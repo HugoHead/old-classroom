@@ -25,3 +25,6 @@ document.getElementById("UGb2Qe").addEventListener("mouseout", function(){docume
 document.getElementsByClassName("d4Fe0d")[0].style.borderRadius = "0";
 document.getElementsByClassName("d4Fe0d")[0].style.border = "none";
 document.getElementsByClassName("d4Fe0d")[0].style.opacity = "30";
+
+//fix the help button in the lower-left
+document.getElementsByClassName("Lw7GHd")[document.getElementsByClassName("Lw7GHd").length - 1].innerHTML = "<img src='https://raw.githubusercontent.com/HugoHead/old-classroom/master/old%20Clssroom/helpicon.png'>";
