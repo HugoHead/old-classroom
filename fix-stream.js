@@ -2,6 +2,7 @@
 var elems = document.getElementsByClassName("qhnNic");
 for (var i = 0; i < elems.length; i++) {
     elems[i].style.borderRadius = "0";
+    elems[i].style.boxShadow = "0 1px 2px 0 rgba(60,64,67,0.302),0 2px 6px 2px rgba(60,64,67,0.149)";
 }
 
 //get the darker class color
