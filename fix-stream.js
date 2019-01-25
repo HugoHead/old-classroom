@@ -64,9 +64,15 @@ document.getElementsByClassName("u2mfde")[5].style.opacity = "100";
 //make width 2000px
 //make border radius 0.
 //MAKE background transparant
-//
+//to access the image element: document.getElementsByClassName("H0u2wd")[0]
+var imageElement = document.getElementsByClassName("H0u2wd")[0];
+imageElement.style.borderRadius = "0";
+imageElement.style.backgroundColor = "transparant";
+imageElement.style.width = "100%";
+imageElement.style.maxWidth = "100%";
 
 //make sure this is last:
+//If it is not last, it will throw error and void the rest of the script. MAKE IT LAST!
 var classSubtitle = document.getElementsByClassName("HDsjVd")[0].innerHTML;
 document.getElementsByClassName("HDsjVd")[0].style.color = "white";
 document.getElementsByClassName("HDsjVd")[0].addEventListener("mouseover", function(){document.getElementsByClassName("HDsjVd")[0].style.textDecoration = "underline"; console.log("on");});
