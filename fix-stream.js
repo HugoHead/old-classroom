@@ -28,3 +28,6 @@ document.getElementsByClassName("d4Fe0d")[0].style.opacity = "30";
 
 //fix the help button in the lower-left
 document.getElementsByClassName("Lw7GHd")[document.getElementsByClassName("Lw7GHd").length - 1].innerHTML = "<img src='https://raw.githubusercontent.com/HugoHead/old-classroom/master/old%20Clssroom/helpicon.png'>";
+
+//unroud the corrners of the work-to-do box.
+document.getElementsByClassName("zOtZye")[0].style.borderRadius = "0";
