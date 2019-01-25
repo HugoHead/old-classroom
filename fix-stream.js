@@ -32,3 +32,9 @@ document.getElementsByClassName("Lw7GHd")[document.getElementsByClassName("Lw7GH
 
 //unroud the corrners of the work-to-do box.
 document.getElementsByClassName("zOtZye")[0].style.borderRadius = "0";
+
+//change the icon colors
+document.getElementsByClassName("gb_kf")[0].style.opacity = "100";
+document.getElementsByClassName("gb_kf")[0].style.fill = "rgb(255,255,255)";
+document.getElementsByClassName("gb_lf")[0].style.opacity = "100";
+document.getElementsByClassName("gb_lf")[0].style.fill = "rgb(255,255,255)";
