@@ -70,6 +70,11 @@ imageElement.style.borderRadius = "0";
 imageElement.style.backgroundColor = "transparant";
 imageElement.style.width = "100%";
 imageElement.style.maxWidth = "100%";
+imageElement.style.marginTop = "0px";
+imageElement.style.height = "240px";
+
+//remove the stupdi arrow
+document.getElementsByClassName("GmuOkf")[1].parentNode.removeChild(document.getElementsByClassName("GmuOkf")[1]);
 
 //make sure this is last:
 //If it is not last, it will throw error and void the rest of the script. MAKE IT LAST!
