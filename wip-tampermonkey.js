@@ -31,7 +31,7 @@ window.addEventListener('load', function(){
         fixMain();
         console.log("here14");
     }
-	else if (site.split("/")[5] == "c")
+	else if (site.split("/")[5] == "c" || site == "https://classroom.google.com/c")
 	{
 		window.setTimeout(function(){delay(150); fixStream();}, 1700);
 		fixStream();
