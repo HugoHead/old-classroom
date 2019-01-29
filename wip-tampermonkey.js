@@ -181,7 +181,7 @@ imageElement.style.height = "240px";
 document.getElementsByClassName("GmuOkf")[1].parentNode.removeChild(document.getElementsByClassName("GmuOkf")[1]);
 
 //get rid of that obnoxios white bar
-document.getElementsByClassName("joJglb")[0].style.borderBottom = ".1rem solid rgb(184, 6, 114)"
+document.getElementsByClassName("joJglb")[0].style.borderBottom = ".1rem solid " + classColor;
         
 //make sure this is last:
 //If it is not last, it will throw error and void the rest of the script. MAKE IT LAST!
