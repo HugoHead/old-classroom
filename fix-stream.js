@@ -76,6 +76,9 @@ imageElement.style.height = "240px";
 //remove the stupdi arrow
 document.getElementsByClassName("GmuOkf")[1].parentNode.removeChild(document.getElementsByClassName("GmuOkf")[1]);
 
+//remvoe the stupid white bar
+document.getElementsByClassName("joJglb")[0].style.borderBottom = ".1rem solid " + classColor;
+
 //make sure this is last:
 //If it is not last, it will throw error and void the rest of the script. MAKE IT LAST!
 var classSubtitle = document.getElementsByClassName("HDsjVd")[0].innerHTML;
