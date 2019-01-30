@@ -61,4 +61,5 @@ document.getElementsByClassName("Socxke")[1].style.color = "white";
 document.getElementsByClassName("Socxke")[1].style.color = "white";
 document.getElementsByClassName("VMvujb")[0].style.color = "white";
 
-
+//remove the stupid white bar
+document.getElementsByClassName("joJglb")[0].style.borderBottom = ".1rem solid " + classColor;
