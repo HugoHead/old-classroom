@@ -50,18 +50,15 @@ document.getElementsByClassName("gb_kf")[0].style.fill = "rgb(255, 255,255)";
 document.getElementsByClassName("gb_lf")[0].style.opacity = "100";
 document.getElementsByClassName("gb_lf")[0].style.fill = "rgb(255,255,255)";
 
-//make the tab colors white
-document.getElementsByClassName("u2mfde")[1].style.color = "white";
-document.getElementsByClassName("u2mfde")[3].style.color = "white";
-document.getElementsByClassName("u2mfde")[5].style.color = "white";
-document.getElementsByClassName("u2mfde")[3].style.opacity = "100";
-document.getElementsByClassName("u2mfde")[5].style.opacity = "100";
-
-//make sure this is last:
-//If it is not last, it will throw error and void the rest of the script. MAKE IT LAST!
-var classSubtitle = document.getElementsByClassName("HDsjVd")[0].innerHTML;
-document.getElementsByClassName("HDsjVd")[0].style.color = "white";
-document.getElementsByClassName("HDsjVd")[0].addEventListener("mouseover", function(){document.getElementsByClassName("HDsjVd")[0].style.textDecoration = "underline"; console.log("on");});
-document.getElementsByClassName("HDsjVd")[0].addEventListener("mouseout", function(){document.getElementsByClassName("HDsjVd")[0].style.textDecoration = "none"; console.log("off");});
-
+//chnage the color of the middle bar.
 document.getElementsByClassName("nl5VRd")[0].style.backgroundColor = pSBC(0.17, classColor);
+
+//make all the text on the middle bar white
+document.getElementsByClassName("ktcYN")[0].childNodes[0].style.color = "white";
+document.getElementsByClassName("fOvfyc")[0].style.color = "white";
+document.getElementsByClassName("z4oNBf")[0].style.color = "white";
+document.getElementsByClassName("Socxke")[1].style.color = "white";
+document.getElementsByClassName("Socxke")[1].style.color = "white";
+document.getElementsByClassName("VMvujb")[0].style.color = "white";
+
+
