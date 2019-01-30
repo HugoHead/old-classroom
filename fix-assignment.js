@@ -64,3 +64,4 @@ document.getElementsByClassName("HDsjVd")[0].style.color = "white";
 document.getElementsByClassName("HDsjVd")[0].addEventListener("mouseover", function(){document.getElementsByClassName("HDsjVd")[0].style.textDecoration = "underline"; console.log("on");});
 document.getElementsByClassName("HDsjVd")[0].addEventListener("mouseout", function(){document.getElementsByClassName("HDsjVd")[0].style.textDecoration = "none"; console.log("off");});
 
+document.getElementsByClassName("nl5VRd")[0].style.backgroundColor = pSBC(0.17, classColor);
