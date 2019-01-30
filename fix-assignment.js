@@ -63,3 +63,6 @@ document.getElementsByClassName("VMvujb")[0].style.color = "white";
 
 //remove the stupid white bar
 document.getElementsByClassName("joJglb")[0].style.borderBottom = ".1rem solid " + classColor;
+
+//add a box shadow to the card
+document.getElementsByClassName("yckQJf")[0].style.boxShadow = "0 1px 2px 0 rgba(60,64,67,0.302),0 2px 6px 2px rgba(60,64,67,0.149)";
