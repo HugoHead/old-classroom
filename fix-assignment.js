@@ -68,6 +68,6 @@ document.getElementsByClassName("joJglb")[0].style.borderBottom = ".1rem solid "
 document.getElementsByClassName("yckQJf")[0].style.boxShadow = "0 1px 2px 0 rgba(60,64,67,0.302),0 2px 6px 2px rgba(60,64,67,0.149)";
 
 //fix the border radius of the submit button
-document.getElementsByClassName("O0WRkf")[5].style.borderRadius = "0";
+document.getElementsByClassName("U26fgb")[3].style.backgroudColor = "0";
 
 document.getElementsByClassName("u155de")[1].style.backgroundColor = pSBC(0.9, classColor);
