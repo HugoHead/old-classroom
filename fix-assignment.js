@@ -73,7 +73,11 @@ document.getElementsByClassName("U26fgb")[3].style.backgroudColor = "0";
 document.getElementsByClassName("u155de")[1].style.backgroundColor = pSBC(0.9, classColor);
 document.getElementsByTagName("BODY")[0].style.backgroundColor = pSBC(0.9, classColor);
 
+document.getElementsByClassName("gMIble")[0].remove();
+
 //keep at bottom
 document.getElementsByClassName("HDsjVd")[0].style.color = "white";
 document.getElementsByClassName("HDsjVd")[0].addEventListener("mouseover", function(){document.getElementsByClassName("HDsjVd")[0].style.textDecoration = "underline"; console.log("on");});
 document.getElementsByClassName("HDsjVd")[0].addEventListener("mouseout", function(){document.getElementsByClassName("HDsjVd")[0].style.textDecoration = "none"; console.log("off");});
+
+document.getElementsByClassName("uqZtlf")[0].style.backgroundColor = "white";
