@@ -71,3 +71,9 @@ document.getElementsByClassName("yckQJf")[0].style.boxShadow = "0 1px 2px 0 rgba
 document.getElementsByClassName("U26fgb")[3].style.backgroudColor = "0";
 
 document.getElementsByClassName("u155de")[1].style.backgroundColor = pSBC(0.9, classColor);
+document.getElementsByTagName("BODY")[0].style.backgroundColor = pSBC(0.9, classColor);
+
+//keep at bottom
+document.getElementsByClassName("HDsjVd")[0].style.color = "white";
+document.getElementsByClassName("HDsjVd")[0].addEventListener("mouseover", function(){document.getElementsByClassName("HDsjVd")[0].style.textDecoration = "underline"; console.log("on");});
+document.getElementsByClassName("HDsjVd")[0].addEventListener("mouseout", function(){document.getElementsByClassName("HDsjVd")[0].style.textDecoration = "none"; console.log("off");});
