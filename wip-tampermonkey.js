@@ -217,6 +217,7 @@ document.getElementsByClassName("GmuOkf")[1].parentNode.removeChild(document.get
 document.getElementsByClassName("joJglb")[0].style.borderBottom = ".1rem solid " + classColor;
 
 //change the background color of the class
+console.log(pSBC(0.87,classColor));
 document.getElementsByTagName("BODY")[0].style.backgroundColor = pSBC(0.87,classColor);
 
 //make the work to do box transparant but with an opacity
