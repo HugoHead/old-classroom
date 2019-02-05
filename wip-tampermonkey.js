@@ -116,13 +116,13 @@ function fixMain()
         for (i = 0; i < elems.length; i++) {
             elems[i].style.borderRadius = "0";
         }
-        document.getElementsByClassName("gb_kf")[0].style.opacity = "100";
-        console.log("here9");
-        document.getElementsByClassName("gb_kf")[0].style.fill = "rgb(255,255,255)";
-        console.log("here10");
         document.getElementsByClassName("gb_lf")[0].style.opacity = "100";
-        console.log("here11");
+        console.log("here9");
         document.getElementsByClassName("gb_lf")[0].style.fill = "rgb(255,255,255)";
+        console.log("here10");
+        document.getElementsByClassName("gb_mf")[0].style.opacity = "100";
+        console.log("here11");
+        document.getElementsByClassName("gb_mf")[0].style.fill = "rgb(255,255,255)";
         console.log("here12");
         //help button accsessor: document.getElementsByClassName("Lw7GHd")[document.getElementsByClassName("Lw7GHd").length - 1]
         document.getElementsByClassName("Lw7GHd")[document.getElementsByClassName("Lw7GHd").length - 1].innerHTML = "<img src='https://raw.githubusercontent.com/HugoHead/old-classroom/master/old%20Clssroom/helpicon.png'>";
